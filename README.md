@@ -24,7 +24,7 @@ Before running this project, make sure you have:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/KNim99/ContactManagementApp-Backend.git
+git https://github.com/KNim99/ContactManagementApp-Frontend.git
 cd contact-management-frontend
 ```
 
