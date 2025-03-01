@@ -1,0 +1,10 @@
+.contact-form .error-box {
+            background-color: #ffdddd;
+            color: #d8000c;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 5px;
+            font-size: 14px;
+            font-weight: bold;
+}
+

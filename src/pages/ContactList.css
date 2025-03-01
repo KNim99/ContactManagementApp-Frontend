@@ -1,0 +1,176 @@
+.contact-list .btn-link {
+  padding: 2px 6px;
+  vertical-align: baseline;
+  color: #666;
+  font-weight: bold;
+}
+.contact-list .btn-link:hover {
+  color: #333;
+}
+.contact-list .sort-button {
+  font-size: 1.2rem;
+  margin-left: 5px;
+  transition: transform 0.2s;
+}
+.contact-list .sort-button:hover {
+  transform: scale(1.2);
+}
+.contact-list th {
+  vertical-align: middle;
+}
+.contact-list .search-container {
+  width: 400px;
+  margin-left: 15px;
+}
+.contact-list .search-input {
+  padding-right: 30px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+.contact-list .search-input:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+.contact-list .d-flex {
+  display: flex;
+  align-items: center;
+}
+.margin-top {
+  margin-top: 40px;
+}
+
+.contact-list .btn-color {
+  padding: 4px 15px;
+  margin-right: 25px !important;
+}
+
+
+.contact-list .search-container {
+  max-width: 400px;
+  position: relative;
+}
+
+.contact-list .search-input {
+  padding-right: 2.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-list .search-input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  border-color: #80bdff;
+}
+
+.custom-bordered {
+  border: 2px solid black !important;
+}
+
+.custom-bordered th,
+.custom-bordered td {
+  border: 2px solid black !important;
+}
+
+/* Table container for responsiveness */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Styled table */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header */
+.custom-table thead {
+  background-color: #9ebfe3;
+  color: rgb(3, 3, 3);
+  text-align: left;
+  font-size: 16px;
+}
+
+.custom-table th {
+  padding: 12px;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Table body */
+.custom-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Striped rows */
+.custom-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+/* Hover effect */
+.custom-table tbody tr:hover {
+  background-color: #eef5ff;
+}
+
+/* Sort button */
+.sort-button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 8px;
+  color: white;
+}
+
+/* Edit & Delete Buttons */
+.edit-btn, .delete-btn {
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/* Edit button */
+.edit-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #218838;
+}
+
+/* Delete button */
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Alert message */
+.alert-message {
+  text-align: center;
+  font-size: 16px;
+  padding: 15px;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+}
+
+
+
+@media (max-width: 768px) {
+  .search-container {
+    max-width: 100%;
+  }
+}
